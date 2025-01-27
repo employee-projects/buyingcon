@@ -1,6 +1,6 @@
 ---
 #preview
-title: Headphones 3D Rendering
+title: Technical Services
 image: /images/project-2-1200x988.jpg
 category: Design
 category_slug: design

@@ -33,13 +33,13 @@ const ShowcaseSection = ( { projects } ) => {
 						<div className="onovo-showcase-items">
                             {projects.slice(0, Data.numOfItems).map((item, key) => (
 							<div key={`showcase-item-${key}`} className="onovo-showcase-item">
-								<div className="category">
+								{/* <div className="category">
 									<a href={`/projects/${item.id}`}>
 										<span data-splitting data-onovo-scroll>
 											<span>{item.category}</span>
 										</span>
 									</a>
-								</div>
+								</div> */}
 								<h3 className="title">
 									<a href={`/projects/${item.id}`}>
 										<span className="onovo-lnk" data-splitting data-onovo-scroll>{item.title}</span>
@@ -55,12 +55,12 @@ const ShowcaseSection = ( { projects } ) => {
 					</div>
 
 					{/* Button */}
-					<Link className="onovo-btn onovo-hover-btn" href={Data.button.link}>
+					{/* <Link className="onovo-btn onovo-hover-btn" href={Data.button.link}>
 						<i className="arrow">
 							<span />
 						</i>
 						<span>{Data.button.label}</span>
-					</Link>
+					</Link> */}
 
 				</div>
 			</section>

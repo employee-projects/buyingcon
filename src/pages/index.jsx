@@ -33,8 +33,8 @@ const Home1 = (props) => {
     <Layouts>
       <>
         <HeroSection />
-        <ServicesSection />
         <AboutSection />
+        <ServicesSection />
         <TickerSlider />
         <ShowcaseSection projects={props.projects} />
         <TeamSection team={props.team} />
@@ -42,7 +42,7 @@ const Home1 = (props) => {
         <VideoSection />
         <CountersSection />
         <CallToActionSection />
-        <LatestPostsSection posts={props.posts} />
+        {/* <LatestPostsSection posts={props.posts} /> */}
         <PartnersSection />
       </>
     </Layouts>

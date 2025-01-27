@@ -26,8 +26,8 @@
     },
     "header": {
         "logo": {
-            "image": "/images/logo-black.png",
-            "image_white": "/images/logo-main.png",
+            "image": "/images/logo_new0.png",
+            "image_white": "/images/logo_new0.png",
             "alt": "logo"
         },
         "menu": [
@@ -177,7 +177,7 @@
     },
     "footer": {
         "logo": {
-            "image": "/images/logo-black.png",
+            "image": "/images/logo_new0.png",
             "alt": "logo"
         },
         "gallery": [
@@ -212,7 +212,7 @@
                 "alt": "image"
             }
         ],
-        "copy": "© 2023 ONOVO by <a href='https://bslthemes.com' target='blank' class='onovo-lnk lnk--white'>bslthemes Team</a>. All rights reserved."
+        "copy": "© 2025 Buying Concepts. All rights reserved."
     },
     "social": [
         {

@@ -1,6 +1,6 @@
 ---
 #preview
-title: Business Card Logo
+title: Quality Assurance
 image: /images/project-4.jpg
 category: Design
 category_slug: design

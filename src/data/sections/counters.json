@@ -1,19 +1,19 @@
 {
     "items": [
         {
-            "value": "23",
-            "label": "Team members",
+            "value": "25",
+            "label": "Years Of Experience",
             "after": ""
         },
         {
-            "value": "99",
+            "value": "73",
             "label": "Completed projects",
             "after": "+"
         },
         {
-            "value": "12",
-            "label": "Lines of code",
-            "after": "M"
+            "value": "5",
+            "label": "Office Locations",
+            "after": ""
         }
     ]
 }

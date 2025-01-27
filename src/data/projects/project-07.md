@@ -1,7 +1,7 @@
 ---
 #preview
-title: Daily Weather Mobile App
-image: /images/project-8-1080x800.jpg
+title: In-House Factory Audits
+image: /images/services/inhouse.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Interactive
 category_slug: interactive

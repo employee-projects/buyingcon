@@ -5,7 +5,7 @@ const AboutSection = () => {
     return (
       <>
         {/* Onovo About */}
-        <section className="onovo-section gap-bottom-140">
+        <section className="onovo-section gap-bottom-140 gap-top-100">
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
@@ -42,7 +42,7 @@ const AboutSection = () => {
                 {/* Description */}
                 <div className="row">
                   {Data.items.map((item, key) => (
-                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <h5 className="text-uppercase">{item.title}</h5>
                     <p dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&

@@ -143,11 +143,11 @@ const ProjectsSection = ( { projects } ) => {
 														<span data-splitting data-onovo-scroll>{item.title}</span>
 													</a>
 												</h5>
-												<div className="text">
+												{/* <div className="text">
 													<div data-splitting data-onovo-scroll>
 														<span>{item.category}</span>
 													</div>
-												</div>
+												</div> */}
 											</div>
 										</div>
 									</div>

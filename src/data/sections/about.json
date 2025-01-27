@@ -1,22 +1,15 @@
 {
     "title": "A Design Agency <br/>Delivering Success by <br/>Winning Hearts",
-    "subtitle": "Welcome to Onovo",
+    "subtitle": "Welcome to Buying Concepts",
     "number": {
-        "value": "14",
-        "label": "Years of Digital Solutions Experience"
+        "value": "25",
+        "label": "Years in Global trading and sourcing "
     },
     "items": [
         {
-            "title": "Our Mission",
-            "text": "From the moment our company was founded we have helped our clients find <strong>exceptional solutions for their businesses</strong> memorable brands and digital products. Our expertise grows with each year, and our accumulated experience."
-        },
-        {
-            "title": "Our Goal",
-            "text": "Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech, entertainment.",
-            "button": {
-                "label": "More About Us",
-                "link": "/about"
-            }
+            "title": "About Us",
+            "text": "Established in 1997 in New Delhi, Buying Concepts is a leading international trading and sourcing company with over 25 years of expertise. With offices in India and Australia, we specialize in sourcing and exporting high-quality products, including apparel, soft goods, and hard goods to global markets at highly competitive prices."
         }
+       
     ]
 }

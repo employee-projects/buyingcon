@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import Data from "@data/sections/hero.json";
-
+// import Bvid from '../../../public/vid/BC_Movie.mp4'
 import 'splitting/dist/splitting.css'
 import 'splitting/dist/splitting-cells.css'
 import Splitting from 'splitting'
@@ -63,7 +63,7 @@ const HeroSection = () => {
                             </div>
 						</div>
 					</div>
-					<a href="#" className={mute ? "onovo-play-btn active" : "onovo-play-btn"} onClick={(e) => clickedMuteHeroVideo(e) }>
+					{/* <a href="#" className={mute ? "onovo-play-btn active" : "onovo-play-btn"} onClick={(e) => clickedMuteHeroVideo(e) }>
 						<span className="play-circles" />
 						<span className="play-lines">
 							<span />
@@ -71,7 +71,7 @@ const HeroSection = () => {
 							<span />
 							<span />
 						</span>
-					</a>
+					</a> */}
 				</div>
 			</section>
         </>

@@ -1,7 +1,7 @@
 ---
 #preview
-title: Museums Art Concept
-image: /images/project-n01-3-1200x900.jpg
+title: Strategic Global Sourcing
+image: /images/services/design.jpg
 category: Branding
 category_slug: branding
 type: Art Direction, Branding, Interactive Design

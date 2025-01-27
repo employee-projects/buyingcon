@@ -1,7 +1,7 @@
 ---
 #preview
-title: Market Economy Graphics
-image: /images/project-2-2-1200x982.jpg
+title: Design Development
+image: /images/services/supply.jpg
 category: Marketing
 category_slug: marketing
 type: UI/UX Design, Mobile Apps, Interactive Design

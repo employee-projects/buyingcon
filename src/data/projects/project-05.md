@@ -1,6 +1,6 @@
 ---
 #preview
-title: Flower Store Mobile App
+title:  Supply Chain Services
 image: /images/project-3-1200x750.jpg
 category: Interactive
 category_slug: interactive

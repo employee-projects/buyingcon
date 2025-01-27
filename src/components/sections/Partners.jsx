@@ -8,7 +8,7 @@ const PartnersSection = ( { paddingTop } ) => {
             <div className="container">
 
                 {/* Heading */}
-                <div className="onovo-heading gap-bottom-40">
+                <div className="onovo-heading gap-top-140 gap-bottom-40">
                     <div className="onovo-subtitle-1">
                         <span dangerouslySetInnerHTML={{__html: Data.subtitle}} />
                     </div>
@@ -21,12 +21,12 @@ const PartnersSection = ( { paddingTop } ) => {
                 <div className="row gap-row">
                     {Data.items.map((item, key) => (
                     <div key={`partners-item-${key}`} className="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-3">
-                        <div className="onovo-brands onovo-hover-3 onovo-hover-label" data-onovo-overlay data-onovo-scroll>
+                        <div className="onovo-brands " data-onovo-overlay data-onovo-scroll>
                             <a target="_blank" href={item.link}>
-                                <span className="image">
-                                    <img decoding="async" src={item.image} width="285" height="200" alt={item.alt} />
+                                <span className="">
+                                    <img decoding="async" src={item.image} width="60%" alt={item.alt} />
                                 </span>
-                                <span className="label onovo-white-black">Visit Website</span>
+                                {/* <span className="label onovo-white-black">Visit Website</span> */}
                             </a>
                         </div>
                     </div>

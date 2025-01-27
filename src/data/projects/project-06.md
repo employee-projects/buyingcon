@@ -1,7 +1,7 @@
 ---
 #preview
-title: Circle Cardboard Concept
-image: /images/project-1-1080x800.jpg
+title: Fabric R&D
+image: /images/services/fabricrd.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Branding
 category_slug: branding
