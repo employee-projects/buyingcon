@@ -41,7 +41,8 @@ const ShowcaseSection = ( { projects } ) => {
 									</a>
 								</div> */}
 								<h3 className="title">
-									<a href={`/projects/${item.id}`}>
+								{/* <a href={`/projects/${item.id}`}> */}
+									<a>
 										<span className="onovo-lnk" data-splitting data-onovo-scroll>{item.title}</span>
 									</a>
 								</h3>

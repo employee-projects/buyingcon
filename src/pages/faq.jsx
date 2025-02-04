@@ -9,20 +9,16 @@ const FAQ = () => {
   const Content = {
     "items": [
       {
-        "heading": "Secure Management and Workforce?",
-        "content": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "What does Buying Concepts do?",
+        "content": "We help businesses source and buy high-quality products like clothing, home goods, and hard goods from India and other countries. We handle everything—from finding the best manufacturers to ensuring quality and delivering the final products."
       },
       {
-        "heading": "Logistics Workforce on Track?",
-        "content": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "Who are your customers?",
+        "content": "We work with global brands and businesses that need reliable sourcing partners. Some of our clients include BELK, KIDPIK, CHEROKEE, and many more."
       },
       {
-        "heading": "Online Courses & Certification?",
-        "content": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-      },
-      {
-        "heading": "Figures and data representative of an organization's?",
-        "content": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
+        "heading": "Why should you choose Buying Concepts?",
+        "content": "ith 25+ years of experience, we provide top-quality products at competitive prices. We ensure quality, compliance, and smooth delivery, making sourcing hassle-free for businesses."
       }
     ]
   }

@@ -10,21 +10,17 @@ const Contact = () => {
     "subtitle": "Solving Business Problems <br>is An Everyday",
     "items": [
         {
-            "title": "Secure Management and Workforce?",
-            "text": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-        },
-        {
-            "title": "Logistics Workforce on Track?",
-            "text": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-        },
-        {
-            "title": "Online Courses & Certification?",
-            "text": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-        },
-        {
-            "title": "Figures and data representative of an organization's?",
-            "text": "Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi."
-        }
+            "title": "What does Buying Concepts do?",
+            "text": "We help businesses source and buy high-quality products like clothing, home goods, and hard goods from India and other countries. We handle everything—from finding the best manufacturers to ensuring quality and delivering the final products."
+          },
+          {
+            "title": "Who are your customers?",
+            "text": "We work with global brands and businesses that need reliable sourcing partners. Some of our clients include BELK, KIDPIK, CHEROKEE, and many more."
+          },
+          {
+            "title": "Why should you choose Buying Concepts?",
+            "text": "ith 25+ years of experience, we provide top-quality products at competitive prices. We ensure quality, compliance, and smooth delivery, making sourcing hassle-free for businesses."
+          }
     ]
   }
 
@@ -181,9 +177,12 @@ const Contact = () => {
                             <ul>
                                 <li>
                                     <h5>Contact Info</h5>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+ 1 (020) 430 2973</a><br/>
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">username@domain.com</a>
-                                    
+                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232, +91-98105 55791</a><br/>
+                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank"></a><br/>
+
+                                    <a href="mailto:navveen@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a>
+                                    <a href="mailto: sunil@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank"> sunil@buyingconcepts.com</a>
+                                    <br/><br/>
                                     <div className="onovo-social-1 onovo-social-active" style={{"marginTop": "10px"}}>
                                         <ul>
                                             {appData.social.map((item, key) => (
@@ -197,13 +196,13 @@ const Contact = () => {
                                     </div>
                                 </li>
                                 <li>
-                                    <h5>Houston</h5>
-                                    <div>2001 N. Clybourn Avenue Suite 202, <br/>Block D, IL 60614</div>
+                                    <h5>INDIA</h5>
+                                    <div> B-207, OKHLA PHASE 1, NEW DELHI, <br/>DELHI - 110020</div>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <h5>Los Angeles</h5>
                                     <div>2001 N. Clybourn Avenue Suite 202</div>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 

@@ -21,17 +21,21 @@ const DefaultFooter = () => {
 
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
-                                <h5>Information</h5>
-                                <p style={{"opacity": "0.6"}}>From the moment our company was founded, we have helped our clients find exceptional solutions <strong>for their businesses</strong>. </p>
+                                <h5>BUYING CONCEPTS</h5>
+                                <p style={{"opacity": "0.6"}}>We specialize in sourcing and exporting high-quality products, 
+                                    including apparel, soft goods, and hard goods to global markets at highly 
+                                    competitive prices. 
+                                </p>
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>
-                                <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />London EC1N 8UW </p>
+                                <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
                                 <p style={{"opacity": "0.6"}}>
                                     <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232</a><br />
+                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br />
                                     <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">sunil@buyingconcepts.com</a>
                                 </p>
                             </div>
