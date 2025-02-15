@@ -4,7 +4,7 @@ const PartnersSection = ( { paddingTop } ) => {
   return (
     <>
         {/* Onovo Brands */}
-        <section className={paddingTop ? "onovo-section gap-top-140" : "onovo-section"}>
+        <section className={paddingTop ? "onovo-section gap-top-80" : "onovo-section"}>
             <div className="container">
 
                 {/* Heading */}

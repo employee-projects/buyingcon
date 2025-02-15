@@ -1,7 +1,7 @@
 ---
 #preview
 title: Technical Services
-image: /images/project-2-1200x988.jpg
+image: /images/services/technical_services.jpg
 category: Design
 category_slug: design
 type: UI/UX Design, Branding, Logo Design

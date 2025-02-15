@@ -41,7 +41,7 @@ const Home1 = (props) => {
         {/* <TestimonialSlider /> */}
         <VideoSection />
         <CountersSection />
-        <CallToActionSection />
+        {/* <CallToActionSection /> */}
         {/* <LatestPostsSection posts={props.posts} /> */}
         <PartnersSection />
       </>

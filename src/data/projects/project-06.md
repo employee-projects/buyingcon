@@ -1,7 +1,7 @@
 ---
 #preview
 title: Fabric R&D
-image: /images/services/fabricrd.jpg
+image: /images/services/fabric_r_d.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Branding
 category_slug: branding

@@ -1,7 +1,7 @@
 ---
 #preview
 title: Design Development
-image: /images/services/supply.jpg
+image: /images/services/design_and_development.jpg
 category: Marketing
 category_slug: marketing
 type: UI/UX Design, Mobile Apps, Interactive Design

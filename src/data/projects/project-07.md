@@ -1,7 +1,7 @@
 ---
 #preview
 title: In-House Factory Audits
-image: /images/services/inhouse.jpg
+image: /images/services/inhouse_factory_audits.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Interactive
 category_slug: interactive

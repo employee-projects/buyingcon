@@ -3,19 +3,19 @@
         {
             "image": "/images/serv-icon1.png",
             "title": "Integrity",
-            "text": "Developing websites is about so much more than marketing. It’s also about aesthetics.",
+            "text": "Building lasting partnerships through trust, ethics, and uncompromised standards.",
             "link": "/services/service-1"
         },
         {
             "image": "/images/serv-icon2.png",
             "title": "Satisfaction",
-            "text": "Developing websites is about so much more than marketing. It’s also about aesthetics.",
+            "text": "Ensuring a smooth, hassle-free experience with sourcing solutions tailored to your needs.",
             "link": "/services/service-2"
         },
         {
             "image": "/images/serv-icon3.png",
             "title": "Transparency",
-            "text": "Developing websites is about so much more than marketing. It’s also about aesthetics.",
+            "text": "We believe in complete transparency, delivering clear and honest solutions for every client.",
             "link": "/services/service-3"
         }
     ]

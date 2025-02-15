@@ -12,7 +12,7 @@ const ShowcaseSection = ( { projects } ) => {
     return (
         <>
             {/* Onovo Showcase */}
-			<section className="onovo-section gap-bottom-140" style={{"borderBottom": "1px solid #555"}}>
+			<section className="onovo-section gap-bottom-140" >
 				<div className="container">
 
 					{/* Heading */}

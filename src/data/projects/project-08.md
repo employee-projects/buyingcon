@@ -1,7 +1,7 @@
 ---
 #preview
 title: Full Logistics Support
-image: /images/project-5-1080x800.jpg
+image: /images/services/Full_logistics.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Marketing
 category_slug: marketing

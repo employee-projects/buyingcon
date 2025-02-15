@@ -1,7 +1,7 @@
 ---
 #preview
 title: Quality Assurance
-image: /images/project-4.jpg
+image: /images/services/quality_assurance.jpg
 category: Design
 category_slug: design
 type: Marketing, Rendering, 3D Design

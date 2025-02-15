@@ -1,7 +1,7 @@
 ---
 #preview
 title:  Supply Chain Services
-image: /images/project-3-1200x750.jpg
+image: /images/services/supply_chain_services.jpg
 category: Interactive
 category_slug: interactive
 type: Marketing, Rendering, 3D Design

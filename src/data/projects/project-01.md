@@ -1,7 +1,7 @@
 ---
 #preview
 title: Strategic Global Sourcing
-image: /images/services/design.jpg
+image: /images/services/strategic_global_sourcing.jpg
 category: Branding
 category_slug: branding
 type: Art Direction, Branding, Interactive Design
