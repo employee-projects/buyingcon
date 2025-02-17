@@ -2,8 +2,8 @@
 #preview details
 image: "/images/post6.jpg"
 icon: "/images/serv-icon6.png"
-title: "Brand Strategy"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "People as Our Greatest Asset"
+short: "We believe that our team is the foundation of our success. By fostering growth, respect, and collaboration, we empower our people to excel."
 
 #full details
 accordion:

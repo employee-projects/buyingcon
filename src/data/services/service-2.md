@@ -2,8 +2,8 @@
 #preview details
 image: "/images/posts3.jpg"
 icon: "/images/serv-icon1.png"
-title: "Social Media Campaign"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "The Importance of Creativity"
+short: "Innovation and originality are central to everything we do, enabling us to deliver unique and impactful solutions to our clients. "
 
 #full details
 accordion:

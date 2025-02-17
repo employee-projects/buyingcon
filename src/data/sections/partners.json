@@ -1,5 +1,5 @@
 {
-    "subtitle": "Fantastic and Premium Clients",
+    "subtitle": "Our Clients",
     "title": "We Have Had the Pleasure of <br/>Working with Some Clients",
     "items": [
         {
@@ -32,7 +32,7 @@
         },
         {
             "label": "Visit Website",
-            "image": "/images/clients/albert.jpg"
+            "image": "/images/clients/shilmel_zagvar.jpg"
         }
     ]
 }

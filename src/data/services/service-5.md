@@ -2,8 +2,8 @@
 #preview details
 image: "/images/posts4.jpg"
 icon: "/images/serv-icon4.png"
-title: "Visual Identity"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "Reputation Above All"
+short: "Integrity, reliability, and accountability define our business practices, ensuring we uphold the trust and credibility weve earned over the years. "
 
 #full details
 accordion:
@@ -11,35 +11,36 @@ accordion:
   title: Solving Business Problems
   items:
     - heading: Secure Management and Workforce?
-      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris 
 
     - heading: Logistics Workforce on Track?
-      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris 
 
     - heading: Online Courses & Certification?
-      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris 
 
     - heading: Figures and data representative of an organization's?
-      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris ine odi. Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Et iam ante ex fermentum litora aorquper conuauris ine odi.
+      content: Duis sed odio sit amet nibh vulputate cursus a sit tellus a odio tincdunt ilm auctor Class apten sociosqu a ds Etiam ante ex fermentum litora aorquper conuauris 
 
 additional:
   enabled: 1
   content: "
     <h3>Highest Expectations</h3>
-		<p>We successfully cope with tasks of varying complexity, provide longterm guarantees and regularly master new technologies. Our portfolio includes <span style='text-decoration: underline;'>dozens of successfully</span> completed projects of houses of different stores, with high–quality finishes and good repairs.</p>
+		<p>We successfully cope with tasks of varying complexity, provide longterm guarantees and regularly master new technologies. Our portfolio includes 
+    <span style='text-decoration: underline;'>dozens of successfully</span> completed projects of houses of different stores, with high–quality finishes and good repairs.</p>
 		<ul>
-      <li>
-        Better defined projects, reducing risk.
-      </li>
-      <li>
-        We provide legislative compliance.
-      </li>
-      <li>
-        Cost savings by getting expert advice.
-      </li>
-      <li>
-        Realistic pricing and project timescales.
-      </li>
+        <li>
+          Better defined projects, reducing risk.
+        </li>
+        <li>
+          We provide legislative compliance.
+        </li>
+        <li>
+          Cost savings by getting expert advice.
+        </li>
+        <li>
+          Realistic pricing and project timescales.
+        </li>
 		</ul>
   "
 ---

@@ -2,8 +2,8 @@
 #preview details
 image: "/images/posts2.jpg"
 icon: "/images/serv-icon5.png"
-title: "Creative Direction"
-short: "Lorem ipm dolor amet, consectetur adipiing lit Sunt sed ad possimus ils magnam maores."
+title: "Commitment to Transparency"
+short: "We prioritize open and honest communication, ensuring trust and fostering long-term relationships with all our stakeholders."
 
 #full details
 accordion:

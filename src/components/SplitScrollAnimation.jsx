@@ -10,7 +10,6 @@ const SplitScrollAnimation = () => {
         setTimeout(function(){
             Splitting({ by: 'lines' });
             ScrollOut({targets: '[data-onovo-scroll]', once: true});
-        
             wordsWrap();
             overlayAnim();
         }, 500);

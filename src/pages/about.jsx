@@ -27,13 +27,13 @@ const About = (props) => {
 
     e.target.parentNode.classList.add('active');
     let videoIframe = e.target.parentNode.querySelector('.js-video-iframe');
-    let videoUrl = videoIframe.dataset.src;
+    let videoUrl = 'https://indiaspfstorage.s3.us-east-2.amazonaws.com/About+Movie.mp4';
     videoIframe.setAttribute('src', videoUrl);
   }
 
   return (
     <Layouts>
-    	<PageBanner pageTitle={"About Us"} pageDesc={"Creative studio at the intersection of art, designand technology."} />
+    	<PageBanner pageTitle={"About Us"} pageDesc={"Helping You make smart, efficient purchasing decisions."} />
       
       	{/* Onovo About */}
 	  	<section className="onovo-section gap-top-140 gap-bottom-140">
@@ -44,13 +44,18 @@ const About = (props) => {
 						{/* Heading */}
 						<div className="onovo-heading gap-bottom-60">
 							<div className="onovo-subtitle-1">
-								<span> Welcome to Onovo </span>
+								<span> Welcome to BUYING CONCEPTS </span>
 							</div>
 							<h2 className="onovo-title-2">
-								<span> We are a digital agency, <br/>passionate about building <br/>and designing brands </span>
+								<span> Connecting Businesses With High-Quality Products </span>
 							</h2>
 							<div className="onovo-text">
-								<p>From the moment our company was founded, we have helped our clients find <strong>exceptional solutions for their businesses</strong>, creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience. </p>
+								<p>Our comprehensive services cover the entire process—from the development 
+									stage to the final product delivery at the customer’s warehouse—ensuring quality, 
+									compliance, and timely execution. Leveraging Indias growing manufacturing 
+									strengths and consumer market, we are committed to delivering excellence and 
+									building long-lasting global partnerships. 
+								</p>
 							</div>
 						</div>
 
@@ -58,7 +63,7 @@ const About = (props) => {
 					<div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 offset-lg-1 hide-on-mobile">
 
 						{/* Image */}
-						<img src="/images/onovo-about-logo.png" alt="" />
+						<img src="/images/clients/watermark_bc.png" alt="" />
 
 					</div>
 				</div>
@@ -70,10 +75,10 @@ const About = (props) => {
 					<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div className="onovo-counter">
 							<div className="num onovo-text-white js-counter" data-end-value="23">
-								<CountUp end="23" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								<CountUp end="25" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
 							</div>
-							<div className="num-after onovo-text-white"> + </div>
-							<div className="label"> Team members </div>
+							<div className="num-after onovo-text-white">  </div>
+							<div className="label"> Years Of Experience </div>
 						</div>
 					</div>
 
@@ -81,7 +86,7 @@ const About = (props) => {
 					<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div className="onovo-counter">
 							<div className="num onovo-text-white js-counter" data-end-value="99">
-								<CountUp end="99" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								<CountUp end="73" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
 							</div>
 							<div className="num-after onovo-text-white"> + </div>
 							<div className="label"> Completed projects </div>
@@ -92,10 +97,10 @@ const About = (props) => {
 					<div className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div className="onovo-counter">
 							<div className="num onovo-text-white js-counter" data-end-value="12">
-								<CountUp end="12" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
+								<CountUp end="3" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
 							</div>
-							<div className="num-after onovo-text-white"> M </div>
-							<div className="label"> Lines of code </div>
+							<div className="num-after onovo-text-white">  </div>
+							<div className="label"> Office Locations </div>
 						</div>
 					</div>
 
@@ -103,8 +108,8 @@ const About = (props) => {
 
 				{/* Video */}
 				<div className="onovo-video" data-onovo-overlay data-onovo-scroll>
-					<div className="image" onClick={ (e) => clickedVideoButton(e) } style={{"backgroundImage": "url(/images/hero-digital-1.jpg)"}} />
-					<iframe className="js-video-iframe" data-src="https://www.youtube.com/embed/Gu6z6kIukgg?showinfo=0&rel=0&autoplay=1"></iframe>
+					<div className="image" onClick={ (e) => clickedVideoButton(e) } style={{"backgroundImage": "url(/images/clients/banner.png)"}} />
+					<iframe className="js-video-iframe w-100" look  data-src="https://indiaspfstorage.s3.us-east-2.amazonaws.com/About+Movie.mp4&autoplay=1"></iframe>
 					<div className="play onovo-circle-text" onClick={ (e) => clickedVideoButton(e) }>
 						<div className="arrow" />
 						<div className="label onovo-text-black onovo-circle-text-label"> Play Video - Play Video - Play Video - </div>
@@ -117,17 +122,27 @@ const About = (props) => {
 						<h5 className="text-uppercase">Our Mission</h5>
 					</div>
 					<div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-						From the moment our company was founded, we have helped our clients find exceptional solutions for their businesses , creating memorable brands and digital products. Our expertise grows with each year, and our accumulated experience.
+					Our mission is to deliver exceptional sourcing and trading solutions by ensuring 
+					quality, innovation, and efficiency at every step. We aim to build lasting global 
+					partnerships by upholding the highest standards of integrity, transparency, and 
+					customer satisfaction. Through our expertise and dedication, we strive to become 
+					the most trusted and preferred sourcing company, empowering businesses 
+					worldwide.
+					To provide our customers outstanding service and innovative designs sourced in 
+					most ethical manner.
 					</div>
 				</div>
 
 				{/* Description */}
 				<div className="row gap-top-60">
 					<div className="col-xs-12 col-sm-12 col-md-4 col-lg-3">
-						<h5 className="text-uppercase">Our Goal</h5>
+						<h5 className="text-uppercase">Our Vision</h5>
 					</div>
 					<div className="col-xs-12 col-sm-12 col-md-8 col-lg-9">
-						Our goal is to deliver amazing experiences that make people talk, and build strategic value for brands, tech, entertainment, arts &amp; culture.
+					Our vision is to be the most trusted and innovative sourcing company in the global 
+					industry, connecting brands with sustainable, high-quality manufacturing solutions. We 
+					aim to drive growth for our clients by delivering exceptional sourcing expertise, efficient 
+					supply chain solutions, and a commitment to ethical and sustainable practices.
 					</div>
 				</div>
 
@@ -150,13 +165,13 @@ const About = (props) => {
 
 		<Services4Section services={props.services} />
 
-		<AwardsSection />
+		{/* <AwardsSection /> */}
 
-      	<HistorySlider />
+      	{/* <HistorySlider /> */}
 
-      	<Team2Section team={props.team} />
+      	{/* <Team2Section team={props.team} /> */}
 
-      	<Testimonial2Slider />
+      	{/* <Testimonial2Slider /> */}
 
       	<PartnersSection />
       
