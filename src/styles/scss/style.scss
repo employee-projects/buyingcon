@@ -4006,10 +4006,11 @@ ul.onovo-footer-menu li {
 	padding: 40px;
 	position: relative;
 	max-width: 460px;
-	min-height: 460px;
+	min-height: 420px;
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
+	padding-top: 70px;
 }
 
 .onovo-service-grid-item:before {

@@ -5,7 +5,7 @@ const AboutSection = () => {
     return (
       <>
         {/* Onovo About */}
-        <section className="onovo-section gap-bottom-140 gap-top-100">
+        <section className="onovo-section gap-bottom-100 gap-top-100">
           <div className="container">
             <div className="row">
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
@@ -14,7 +14,7 @@ const AboutSection = () => {
                   <div className="col-xs-12 col-sm-12 col-md-8 col-lg-12">
 
                     {/* Heading */}
-                    <div className="onovo-heading gap-bottom-40">
+                    <div className="onovo-heading gap-bottom-30">
                       <div className="onovo-subtitle-1">
                         <span>{Data.subtitle}</span>
                       </div>
@@ -24,7 +24,7 @@ const AboutSection = () => {
                     </div>
 
                   </div>
-                  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-12 hide-on-desktop gap-bottom-60">
+                  <div className="col-xs-12 col-sm-12 col-md-4 col-lg-12 hide-on-desktop gap-bottom-20">
 
                     {/* Number */}
                     <div className="onovo-number onovo-circle-text mrg-left">
@@ -43,7 +43,7 @@ const AboutSection = () => {
                 <div className="row">
                   {Data.items.map((item, key) => (
                   <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                    <h5 className="text-uppercase">{item.title}</h5>
+                    {/* <h5 className="text-uppercase">{item.title}</h5> */}
                     <p dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&
                     <Link className="onovo-btn onovo-hover-btn" href={item.button.link}>

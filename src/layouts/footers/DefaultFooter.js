@@ -30,20 +30,22 @@ const DefaultFooter = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
                             {/* Description */}
-                            {/* <div className="onovo-text onovo-text-white">
+                            <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>
                                 <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
                                 <p style={{"opacity": "0.6"}}>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232</a><br />
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br />
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">sunil@buyingconcepts.com</a>
+                                <a href="tel:+9818349232" className="onovo-lnk lnk--white" target="_blank">+91-9818349232 </a>
+                                <a href="tel:+9810555791" className="onovo-lnk lnk--white" target="_blank">+91-9810555791</a><br/><br/>
+                                <a href="mailto:navveen@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br/>
+                                <a href="mailto:sunil@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank"> sunil@buyingconcepts.com</a>
                                 </p>
-                            </div> */}
+                            </div>
 
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
-                            {/* <div className="row">
+                            
+                            <div className="row">
                                 {appData.footer.gallery.map((item, key) => (
                                 <div key={`fgallery-item-${key}`} className="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                     <figure className="gallery-item">
@@ -53,15 +55,6 @@ const DefaultFooter = () => {
                                     </figure>
                                 </div>
                                 ))}
-                            </div> */}
-                            <div className="onovo-text onovo-text-white">
-                                <h5>Get in Touch</h5>
-                                <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
-                                <p style={{"opacity": "0.6"}}>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232</a><br />
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br />
-                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">sunil@buyingconcepts.com</a>
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -69,10 +62,10 @@ const DefaultFooter = () => {
                     <div className="separator"></div>
 
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-self-center">
+                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-self-center">
 
                             {/* Copyright */}
-                            <div className="copyright onovo-text-white">
+                            <div className="copyright onovo-text-white text-center">
                                 <div dangerouslySetInnerHTML={{__html: appData.footer.copy}} />
                             </div>
 
@@ -80,7 +73,7 @@ const DefaultFooter = () => {
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-right">
 
                             {/* Social */}
-                            <div className="onovo-social-1 onovo-social-active">
+                            {/* <div className="onovo-social-1 onovo-social-active">
                                 <ul>
                                     {appData.social.map((item, key) => (
                                     <li key={`fsocial-item-${key}`}>
@@ -90,7 +83,7 @@ const DefaultFooter = () => {
                                     </li>
                                     ))}
                                 </ul>
-                            </div>
+                            </div> */}
 
                         </div>
                     </div>

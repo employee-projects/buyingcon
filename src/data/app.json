@@ -31,16 +31,15 @@
                 "label": "Home",
                 "link": "/",
                 "children": 0
-                
             },
             {
-                "label": "About",
+                "label": "About Us",
                 "link": "/about",
                 "children": 0
             },
             
             {
-                "label": "Our Goods",
+                "label": "Products",
                 "link": "/projects",
                 "children": 0
             },
@@ -52,7 +51,7 @@
             }
         ],
         "button": {
-            "label": "Our Goods",
+            "label": "Products",
             "link": "/projects"
         },
         "button2": {

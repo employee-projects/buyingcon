@@ -5,7 +5,7 @@ const CountersSection = () => {
   return (
     <>
       {/* Onovo Numbers */}
-		<section className="onovo-section gap-top-140 gap-bottom-140">
+		<section className="onovo-section gap-top-140 gap-bottom-80">
 			<div className="container">
 
 				{/* Numbers items */}

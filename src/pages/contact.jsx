@@ -6,30 +6,30 @@ import { Formik } from 'formik';
 
 const Contact = () => {
   const faqData = {
-    "title": "Client’s FAQ",
-    "subtitle": "Solving Business Problems <br>is An Everyday",
+    "title": "FAQs",
+    "subtitle": "Solving Business Queries",
     "items": [
         {
             "title": "What does Buying Concepts do?",
             "text": "We help businesses source and buy high-quality products like clothing, home goods, and hard goods from India and other countries. We handle everything—from finding the best manufacturers to ensuring quality and delivering the final products."
           },
           {
-            "title": "Who are your customers?",
+            "title": "Who are our customers?",
             "text": "We work with global brands and businesses that need reliable sourcing partners. Some of our clients include BELK, KIDPIK, CHEROKEE, and many more."
           },
           {
             "title": "Why should you choose Buying Concepts?",
-            "text": "ith 25+ years of experience, we provide top-quality products at competitive prices. We ensure quality, compliance, and smooth delivery, making sourcing hassle-free for businesses."
+            "text": "With 25+ years of experience, we provide top-quality products at competitive prices. We ensure quality, compliance, and smooth delivery, making sourcing hassle-free for businesses."
           }
     ]
   }
 
   return (
     <Layouts>
-        <PageBanner pageTitle={"Contact Us"} pageDesc={"Have ideas for your business? Let’s build something awesome together."} />
+        <PageBanner pageTitle={"Contact Us"} pageDesc={"Ready to bring your business ideas to life? Let’s get in touch."} />
 
         {/* Onovo Contact Info */}
-        <section className="onovo-section gap-top-140 gap-bottom-100" style={{'backgroundImage':"URL('/images/bg_map.jpg')" }}>
+        <section className="onovo-section gap-top-140 gap-bottom-100">
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">
@@ -37,7 +37,6 @@ const Contact = () => {
                         {/* Heading */}
                         <div className="onovo-text gap-bottom-40">
                             <h4>Send Us A Message</h4>
-                            Then let us know about it and we can see what we can do to help
                         </div>
 
                         {/* Form */}
@@ -157,7 +156,7 @@ const Contact = () => {
                                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <p>
                                             <button type="submit" className="onovo-btn onovo-hover-btn">
-                                                <span>Send Message</span>
+                                                <span>Send</span>
                                             </button>
                                         </p>
                                     </div>
@@ -176,14 +175,17 @@ const Contact = () => {
                         <div className="onovo-contact-info onovo-text-white">
                             <ul>
                                 <li>
-                                    <h5>Contact Info</h5>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232, +91-98105 55791</a><br/>
-                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank"></a><br/>
-
-                                    <a href="mailto:navveen@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a>
-                                    <a href="mailto: sunil@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank"> sunil@buyingconcepts.com</a>
-                                    <br/><br/>
-                                    <div className="onovo-social-1 onovo-social-active" style={{"marginTop": "10px"}}>
+                                    <h4>Contact Info</h4>
+                                    <br/>
+                                    <h6>Mobile</h6>
+                                    <a href="tel:+9818349232" className="onovo-lnk lnk--white" target="_blank">+91-9818349232 </a><br/>
+                                    <a href="tel:+9810555791" className="onovo-lnk lnk--white" target="_blank">+91-9810555791</a><br/>
+                                    <br/>
+                                    <h6>E-mail</h6>
+                                    <a href="mailto:navveen@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br/>
+                                    <a href="mailto:sunil@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank"> sunil@buyingconcepts.com</a>
+                                    <br/>
+                                    {/* <div className="onovo-social-1 onovo-social-active" style={{"marginTop": "10px"}}>
                                         <ul>
                                             {appData.social.map((item, key) => (
                                             <li key={`contact-social-item-${key}`}>
@@ -193,10 +195,10 @@ const Contact = () => {
                                             </li>
                                             ))}
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </li>
                                 <li>
-                                    <h5>INDIA</h5>
+                                <h6>Address</h6>
                                     <div> B-207, OKHLA PHASE 1, NEW DELHI, <br/>DELHI - 110020</div>
                                 </li>
                                 {/* <li>

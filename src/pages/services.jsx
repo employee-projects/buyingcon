@@ -30,9 +30,9 @@ const Services = (props) => {
 
 			{/* Heading */}
 			<div className="onovo-heading gap-bottom-40">
-				<div className="onovo-subtitle-1">
+				{/* <div className="onovo-subtitle-1">
 					<span>What we do</span>
-				</div>
+				</div> */}
 				<h2 className="onovo-title-2">
 					<span>We’re a full-service agency</span>
 				</h2>

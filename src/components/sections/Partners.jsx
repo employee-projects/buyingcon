@@ -4,14 +4,14 @@ const PartnersSection = ( { paddingTop } ) => {
   return (
     <>
         {/* Onovo Brands */}
-        <section className={paddingTop ? "onovo-section gap-top-80" : "onovo-section"}>
+        <section className={paddingTop ? "onovo-section gap-top-40" : "onovo-section"}>
             <div className="container">
 
                 {/* Heading */}
                 <div className="onovo-heading gap-top-140 gap-bottom-40">
-                    <div className="onovo-subtitle-1">
+                    {/* <div className="onovo-subtitle-1">
                         <span dangerouslySetInnerHTML={{__html: Data.subtitle}} />
-                    </div>
+                    </div> */}
                     <h2 className="onovo-title-2">
                         <span dangerouslySetInnerHTML={{__html: Data.title}} />
                     </h2>
@@ -24,7 +24,7 @@ const PartnersSection = ( { paddingTop } ) => {
                         <div className="onovo-brands " data-onovo-overlay data-onovo-scroll>
                             <a target="_blank" href={item.link}>
                                 <span className="">
-                                    <img decoding="async" src={item.image} width="60%" alt={item.alt} />
+                                    <img decoding="async" src={item.image} width="75%" loading="lazy" alt={item.alt} />
                                 </span>
                                 {/* <span className="label onovo-white-black">Visit Website</span> */}
                             </a>
