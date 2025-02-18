@@ -30,7 +30,7 @@ const DefaultFooter = () => {
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 offset-lg-1">
                             {/* Description */}
-                            <div className="onovo-text onovo-text-white">
+                            {/* <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>
                                 <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
                                 <p style={{"opacity": "0.6"}}>
@@ -38,13 +38,12 @@ const DefaultFooter = () => {
                                     <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br />
                                     <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">sunil@buyingconcepts.com</a>
                                 </p>
-                            </div>
+                            </div> */}
 
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
-                            
-                            <div className="row">
+                            {/* <div className="row">
                                 {appData.footer.gallery.map((item, key) => (
                                 <div key={`fgallery-item-${key}`} className="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                     <figure className="gallery-item">
@@ -54,6 +53,15 @@ const DefaultFooter = () => {
                                     </figure>
                                 </div>
                                 ))}
+                            </div> */}
+                            <div className="onovo-text onovo-text-white">
+                                <h5>Get in Touch</h5>
+                                <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
+                                <p style={{"opacity": "0.6"}}>
+                                    <a href="tel:+10204302973" className="onovo-lnk lnk--white" target="_blank">+91-98183 49232</a><br />
+                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br />
+                                    <a href="mailto:username@domain.com" className="onovo-lnk lnk--white" target="_blank">sunil@buyingconcepts.com</a>
+                                </p>
                             </div>
                         </div>
                     </div>
