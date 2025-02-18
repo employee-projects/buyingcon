@@ -8,7 +8,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
   // Isotope
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
-
+  console.log(appData.portfoliogoods.label)
   useEffect(() => {
     setTimeout(() => {
       isotope.current = new Isotope(".onovo-portfolio-items", {
@@ -71,7 +71,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
     case "1" : columns = 'col-xs-12 col-sm-12 col-md-12 col-lg-12'; break;
     case "2" : columns = 'col-xs-12 col-sm-12 col-md-6 col-lg-6'; break;
     case "3" : columns = 'col-xs-12 col-sm-12 col-md-6 col-lg-4'; break;
-    default: columns = 'col-xs-12 col-sm-12 col-md-6 col-lg-6';
+    default: columns = 'col-xs-12 col-sm-12 col-md-4 col-lg-4';
   }
 
   if ( layout == "list" ) {
@@ -98,7 +98,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                             <ul>
                                 <li key={`categories-item-first`}>
                                     <button onClick={handleFilterKeyChange("*")} className="onovo-filter-item item--active" type="button" data-filter="*">
-                                        <span>All Projects</span>
+                                        <span>All Products</span>
                                     </button>
                                 </li>
                                 {appData.settings.portfolio.categories.map((item, key) => (
@@ -118,34 +118,36 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                     {/* Projects items */}
                     <div className="row onovo-portfolio-items">
 
-                        {projects.map((item, key) => (
-                        <div key={`projects-item-${key}`} className={`${columns} onovo-portfolio-col ${item.category_slug}`}>
+                        {appData.portfoliogoods.map((item, key) => (
+                        <div key={`projects-item-${key}`} className={`${columns} onovo-portfolio-col ${item.slug}`}>
                             {layout == "grid" &&    
                                 <div className="onovo-portfolio-item">
                                     <div className={masonry ? "image" : "image image-square"} data-onovo-overlay data-onovo-scroll>
-                                        <Link href={galleryMode ? item.image : `/projects/${item.id}`} className="onovo-hover-3">
+                                            <img src={item.image} alt={item.label} />
+                                        {/* <Link href={galleryMode ? item.image : `/projects/${item.id}`} className="onovo-hover-3">
                                             <img src={item.image} alt={item.title} />
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                     <div className="desc">
                                         <h5 className="title">
-                                            <Link className="onovo-lnk" href={galleryMode ? item.image : `/projects/${item.id}`}>
-                                                <span data-splitting data-onovo-scroll>{item.title}</span>
-                                            </Link>
+                                                <span data-splitting data-onovo-scroll>{item.label}</span>
+                                            {/* <Link className="onovo-lnk" href={galleryMode ? item.image : `/projects/${item.id}`}>
+                                                <span data-splitting data-onovo-scroll>{item.label}</span>
+                                            </Link> */}
                                         </h5>
-                                        <div className="text">
+                                        {/* <div className="text">
                                             <div data-splitting data-onovo-scroll>
                                                 <span>{item.category}</span>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             }
-                            {layout == "list" &&
+                            {/* {layout == "list" &&
                                 <div className="onovo-portfolio-item onovo-portfolio-item-list">
                                     <div className="image" data-onovo-overlay data-onovo-scroll>
                                         <Link href={`/projects/${item.id}`} className="onovo-hover-3">
-                                          <img src={item.image} alt={item.title} />
+                                          <img src={item.image} alt={item.label} />
                                         </Link>
                                     </div>
                                     <div className="desc">
@@ -179,7 +181,7 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                                       </div>
                                     </div>
                                 </div>
-                            }
+                            } */}
                         </div>
                         ))}
 

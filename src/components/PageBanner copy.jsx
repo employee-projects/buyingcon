@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from "next/link";
 import appData from "@data/app.json";
 import { useRouter } from 'next/router';
-
+import Data from "@data/sections/video.json";
 const PageBanner = ({ pageTitle, pageDesc }) => {
   const headTitle = `${appData.settings.siteName} - ${pageTitle}`;
   const { asPath } = useRouter();
@@ -13,12 +13,17 @@ const PageBanner = ({ pageTitle, pageDesc }) => {
         <title>{headTitle}</title>
       </Head>
       {/* Onovo Intro */}
-			<section className="onovo-section onovo-intro intro--black pop">
+			<section className="onovo-section onovo-intro intro--black">
+			<video autoPlay loop playsInline id="bckVideo" width={"100%"}>
+									<source src={Data.bck} type="video/mp4" />
+							</video>
 				<div className="container">
+				
 					<h1 className="onovo-title-1  onovo-text-white">
 						<span>{pageTitle}</span>
 						<span className="onovo-sep word">
-							<i className="sep-img" style={{"backgroundImage": "url(/images/title_icon.svg)"}} />
+							{/* <i className="sep-img" style={{"backgroundImage": "url(/images/title_icon.svg)"}} /> */}
+						
 						</span>
 					</h1>
 					{pageDesc != "" &&

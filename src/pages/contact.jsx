@@ -29,7 +29,7 @@ const Contact = () => {
         <PageBanner pageTitle={"Contact Us"} pageDesc={"Have ideas for your business? Let’s build something awesome together."} />
 
         {/* Onovo Contact Info */}
-        <section className="onovo-section gap-top-140">
+        <section className="onovo-section gap-top-140 gap-bottom-100" style={{'backgroundImage':"URL('/images/bg_map.jpg')" }}>
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7">

@@ -7,15 +7,15 @@
             "categories": [
                 {
                     "label": "Apparels",
-                    "slug": "marketing"
+                    "slug": "appr"
                 },
                 {
                     "label": "Soft Goods",
-                    "slug": "interactive"
+                    "slug": "sg"
                 },
                 {
                     "label": "Hard Goods",
-                    "slug": "design"
+                    "slug": "hg"
                 }
             ]
         }
@@ -41,7 +41,7 @@
             
             {
                 "label": "Our Goods",
-                "link": "/about",
+                "link": "/projects",
                 "children": 0
             },
             
@@ -52,7 +52,7 @@
             }
         ],
         "button": {
-            "label": "Showcase",
+            "label": "Our Goods",
             "link": "/projects"
         },
         "button2": {
@@ -99,6 +99,70 @@
         ],
         "copy": "© 2025 Buying Concepts. All rights reserved."
     },
+
+    "portfoliogoods": [
+            {
+                "label": "Beddings",
+                "image": "/images/products/softgoods/beddings.jpg",
+                "slug":"sg"
+            },
+            {
+                "label": "Curtains",
+                "image": "/images/products/softgoods/curtains.jpg",
+                "slug":"sg"
+            },
+            {
+                "label": "Wall Art",
+                "image": "/images/products/hardgoods/wallart.jpg",
+                "slug":"hg"
+            },
+            {
+                "label": "Wine Stopper",
+                "image": "/images/products/hardgoods/winestopper.jpg",
+                "slug":"hg"
+            },
+            {
+                "label": "Kitchen Linen",
+                "image": "/images/products/softgoods/kitchenlinen.jpg",
+                "slug":"sg"
+            },
+            {
+                "label": "Cushions",
+                "image": "/images/products/softgoods/cushions.jpg",
+                "slug":"sg"
+            },
+            {
+                "label": "Glasses",
+                "image": "/images/products/hardgoods/glasses.jpg",
+                "slug":"hg"
+            },
+            {
+                "label": "Candles",
+                "image": "/images/products/hardgoods/candles.jpg",
+                "slug":"hg"
+            },
+            {
+                "label": "Cutlery",
+                "image": "/images/products/apparels/cutlery.jpg",
+                "slug":"appr"
+            },
+            {
+                "label": "Formal Suits",
+                "image": "/images/products/apparels/formalsuits.jpg",
+                "slug":"appr"
+            },
+            {
+                "label": "Sweaters",
+                "image": "/images/products/apparels/sweaters.jpg",
+                "slug":"appr"
+            },
+            {
+                "label": "Sweat Shirts",
+                "image": "/images/products/apparels/sweatshirts.jpg",
+                "slug":"appr"
+            }
+        ],
+
     "social": [
         {
             "link": "https://facebook.com",
