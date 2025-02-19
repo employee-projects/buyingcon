@@ -66,32 +66,32 @@
         },
         "gallery": [
             {
-                "image": "/images/post5-1024x683.jpg",
+                "image": "/images/footer/1.jpg",
                 "title": "image",
                 "alt": "image"
             },
             {
-                "image": "/images/post4-1024x683.jpg",
+                "image": "/images/footer/2.jpg",
                 "title": "image",
                 "alt": "image"
             },
             {
-                "image": "/images/post3-1024x683.jpg",
+                "image": "/images/footer/3.jpg",
                 "title": "image",
                 "alt": "image"
             },
             {
-                "image": "/images/post4-1024x683.jpg",
+                "image": "/images/footer/4.jpg",
                 "title": "image",
                 "alt": "image"
             },
             {
-                "image": "/images/post1-1024x683.jpg",
+                "image": "/images/footer/5.jpg",
                 "title": "image",
                 "alt": "image"
             },
             {
-                "image": "/images/post6-1024x683.jpg",
+                "image": "/images/footer/6.jpg",
                 "title": "image",
                 "alt": "image"
             }
