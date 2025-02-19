@@ -50,7 +50,7 @@ const DefaultFooter = () => {
                                 <div key={`fgallery-item-${key}`} className="col-4 col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                     <figure className="gallery-item">
                                         <a href={item.image} title={item.title}>
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src={item.image} alt={item.alt} loading="lazy" />
                                         </a>
                                     </figure>
                                 </div>
