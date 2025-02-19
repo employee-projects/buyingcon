@@ -47,12 +47,12 @@ const About = (props) => {
 								<span> Welcome to BUYING CONCEPTS </span>
 							</div>
 							<h2 className="onovo-title-2">
-								<span> Connecting Businesses With High-Quality Products </span>
+								<span> Effortlessly connecting you with the finest experiences </span>
 							</h2>
 							<div className="onovo-text">
 								<p>Our comprehensive services cover the entire process—from the development 
 									stage to the final product delivery at the customer’s warehouse—ensuring quality, 
-									compliance, and timely execution. Leveraging Indias growing manufacturing 
+									compliance, and timely execution. Leveraging India's growing manufacturing 
 									strengths and consumer market, we are committed to delivering excellence and 
 									building long-lasting global partnerships. 
 								</p>
