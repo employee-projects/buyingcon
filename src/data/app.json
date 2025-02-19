@@ -155,12 +155,6 @@
                 "laz":"lazy"
             },
             {
-                "label": "Kitchen Linen",
-                "image": "/images/products/softgoods/kitchenlinen.jpg",
-                "slug":"sg",
-                "laz":"lazy"
-            },
-            {
                 "label": "Cushions",
                 "image": "/images/products/softgoods/cushions.jpg",
                 "slug":"sg",
