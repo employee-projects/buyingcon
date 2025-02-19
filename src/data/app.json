@@ -103,62 +103,146 @@
             {
                 "label": "Beddings",
                 "image": "/images/products/softgoods/beddings.jpg",
-                "slug":"sg"
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
                 "label": "Curtains",
                 "image": "/images/products/softgoods/curtains.jpg",
-                "slug":"sg"
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
-                "label": "Wall Art",
-                "image": "/images/products/hardgoods/wallart.jpg",
-                "slug":"hg"
+                "label": "Rugs",
+                "image": "/images/products/softgoods/rugs.jpg",
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
-                "label": "Wine Stopper",
-                "image": "/images/products/hardgoods/winestopper.jpg",
-                "slug":"hg"
+                "label": "Table Linen",
+                "image": "/images/products/softgoods/tablelinen.jpg",
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
                 "label": "Kitchen Linen",
                 "image": "/images/products/softgoods/kitchenlinen.jpg",
-                "slug":"sg"
+                "slug":"sg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Throws",
+                "image": "/images/products/softgoods/throws.jpg",
+                "slug":"sg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Mittens",
+                "image": "/images/products/softgoods/mittens.jpg",
+                "slug":"sg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Wall Art",
+                "image": "/images/products/hardgoods/wallart.jpg",
+                "slug":"hg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Wine Stopper",
+                "image": "/images/products/hardgoods/winestopper.jpg",
+                "slug":"hg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Kitchen Linen",
+                "image": "/images/products/softgoods/kitchenlinen.jpg",
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
                 "label": "Cushions",
                 "image": "/images/products/softgoods/cushions.jpg",
-                "slug":"sg"
+                "slug":"sg",
+                "laz":"lazy"
             },
             {
                 "label": "Glasses",
                 "image": "/images/products/hardgoods/glasses.jpg",
-                "slug":"hg"
+                "slug":"hg",
+                "laz":"lazy"
             },
             {
                 "label": "Candles",
                 "image": "/images/products/hardgoods/candles.jpg",
-                "slug":"hg"
+                "slug":"hg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Wreath Trays",
+                "image": "/images/products/hardgoods/wreathtray.jpg",
+                "slug":"hg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Wooden Items",
+                "image": "/images/products/hardgoods/trays.jpg",
+                "slug":"hg",
+                "laz":"lazy"
+            },
+            {
+                "label": "Decors",
+                "image": "/images/products/hardgoods/christmasdecor.jpg",
+                "slug":"hg",
+                "laz":"lazy"
             },
             {
                 "label": "Cutlery",
                 "image": "/images/products/apparels/cutlery.jpg",
-                "slug":"appr"
+                "slug":"appr",
+                "laz":"lazy"
             },
             {
                 "label": "Formal Suits",
                 "image": "/images/products/apparels/formalsuits.jpg",
-                "slug":"appr"
+                "slug":"appr",
+                "laz":"lazy"
             },
             {
                 "label": "Sweaters",
                 "image": "/images/products/apparels/sweaters.jpg",
-                "slug":"appr"
+                "slug":"appr",
+                "laz":"lazy"
             },
             {
                 "label": "Sweat Shirts",
                 "image": "/images/products/apparels/sweatshirts.jpg",
-                "slug":"appr"
+                "slug":"appr",
+                "laz":"lazy"
+            },
+            {
+                "label": "Dresses",
+                "image": "/images/products/apparels/dresses.jpg",
+                "slug":"appr",
+                "laz":"lazy"
+            },
+            {
+                "label": "Jackets",
+                "image": "/images/products/apparels/jackets.jpg",
+                "slug":"appr",
+                "laz":"lazy"
+            },
+            {
+                "label": "T-Shirts",
+                "image": "/images/products/apparels/tshirts.jpg",
+                "slug":"appr",
+                "laz":"lazy"
+            },
+            {
+                "label": "uniforms",
+                "image": "/images/products/apparels/uniforms.jpg",
+                "slug":"appr",
+                "laz":"lazy"
             }
         ],
 

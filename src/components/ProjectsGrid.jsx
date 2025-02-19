@@ -122,19 +122,19 @@ const ProjectsGrid = ({ projects, layout, cols, sideFilter, masonry, galleryMode
                         <div key={`projects-item-${key}`} className={`${columns} onovo-portfolio-col ${item.slug}`}>
                             {layout == "grid" &&    
                                 <div className="onovo-portfolio-item">
-                                    <div className={masonry ? "image" : "image image-square"} data-onovo-overlay data-onovo-scroll>
-                                            <img src={item.image} alt={item.label} />
+                                    <div className={masonry ? "image" : "image image-square"}  data-onovo-scroll>
+                                            <img src={item.image} alt={item.label} loading={item.laz} />
                                         {/* <Link href={galleryMode ? item.image : `/projects/${item.id}`} className="onovo-hover-3">
                                             <img src={item.image} alt={item.title} />
                                         </Link> */}
                                     </div>
                                     <div className="desc">
-                                        <h5 className="title">
+                                        <h6 className="title">
                                                 <span data-splitting data-onovo-scroll>{item.label}</span>
                                             {/* <Link className="onovo-lnk" href={galleryMode ? item.image : `/projects/${item.id}`}>
                                                 <span data-splitting data-onovo-scroll>{item.label}</span>
                                             </Link> */}
-                                        </h5>
+                                        </h6>
                                         {/* <div className="text">
                                             <div data-splitting data-onovo-scroll>
                                                 <span>{item.category}</span>
