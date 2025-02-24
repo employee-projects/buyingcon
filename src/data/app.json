@@ -191,12 +191,6 @@
                 "laz":"lazy"
             },
             {
-                "label": "Cutlery",
-                "image": "/images/products/apparels/cutlery.jpg",
-                "slug":"appr",
-                "laz":"lazy"
-            },
-            {
                 "label": "Formal Suits",
                 "image": "/images/products/apparels/formalsuits.jpg",
                 "slug":"appr",

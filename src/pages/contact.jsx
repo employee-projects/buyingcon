@@ -178,8 +178,8 @@ const Contact = () => {
                                     <h4>Contact Info</h4>
                                     <br/>
                                     <h6>Mobile</h6>
-                                    <a href="tel:+9818349232" className="onovo-lnk lnk--white" target="_blank">+91-9818349232 </a><br/>
-                                    <a href="tel:+9810555791" className="onovo-lnk lnk--white" target="_blank">+91-9810555791</a><br/>
+                                    <a href="tel:+919818349232" className="onovo-lnk lnk--white" target="_blank">+91-9818349232 </a><br/>
+                                    <a href="tel:+919871921044" className="onovo-lnk lnk--white" target="_blank">+91-9871921044 </a><br/>
                                     <br/>
                                     <h6>E-mail</h6>
                                     <a href="mailto:navveen@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank">navveen@buyingconcepts.com</a><br/>
