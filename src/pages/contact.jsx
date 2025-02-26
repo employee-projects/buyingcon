@@ -3,8 +3,29 @@ import Layouts from "@layouts/Layouts";
 import Accordion from 'react-bootstrap/Accordion';
 import appData from "@data/app.json";
 import { Formik } from 'formik';
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_ywashxd', 'template_3vj00yw', form.current, {
+          publicKey: 'qy3Ojeu0vyCp3hpV8',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
   const faqData = {
     "title": "FAQs",
     "subtitle": "Solving Business Queries",
@@ -41,6 +62,15 @@ const Contact = () => {
 
                         {/* Form */}
                         <div className="onovo-form">
+                        {/* <form ref={form} onSubmit={sendEmail}>
+                        <label>Name</label>
+                        <input type="text" name="user_name" />
+                        <label>Email</label>
+                        <input type="email" name="user_email" />
+                        <label>Message</label>
+                        <textarea name="message" />
+                        <input type="submit" value="Send" />
+                        </form> */}
                         <Formik
                             initialValues = {{ email: '', name: '', tel: '', message: '' }}
                             validate = { values => {
@@ -98,9 +128,9 @@ const Contact = () => {
                                 handleBlur,
                                 handleSubmit,
                                 isSubmitting,
-                                /* and other goodies */
+                       
                             }) => (
-                            <form onSubmit={handleSubmit} id="contactForm" action={appData.settings.formspreeURL} className="cform" method="post">
+                            <form ref={form} onSubmit={sendEmail} id="contactForm" className="cform" method="post">
                                 <div className="row">
                                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                         <p>
