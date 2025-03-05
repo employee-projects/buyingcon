@@ -1,7 +1,7 @@
 ---
 #preview
-title: In-House Factory Audits
-image: /images/services/inhouse_factory_audits.jpg
+title: Ethical Compliance- SMETA, BSCI, WRAP & ACCORD
+image: /images/services/Ethical_compliances.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Interactive
 category_slug: interactive
