@@ -1,7 +1,7 @@
 ---
 #preview
-title: Ethical Compliance- SMETA, BSCI, WRAP & ACCORD
-image: /images/services/Ethical_compliances.jpg
+title: Ethical Compliance- SMETA, BSCI, WRAP & ACCORD
+image: /images/services/suzuka.jpg
 short: "A modern, technology-enabled, wellness-focused workspace and sustainable office…"
 category: Interactive
 category_slug: interactive
