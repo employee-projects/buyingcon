@@ -32,7 +32,7 @@ const DefaultFooter = () => {
                             {/* Description */}
                             <div className="onovo-text onovo-text-white">
                                 <h5>Get in Touch</h5>
-                                <p style={{"opacity": "0.6"}}>B-207, OKHLA PHASE 1, NEW DELHI<br />DELHI - 110020, INDIA </p>
+                                <p style={{"opacity": "0.6"}}>B-207, Okhla Phase 1, New Delhi<br />Delhi - 110020, India </p>
                                 <p style={{"opacity": "0.6"}}>
                                 <a href="tel:+919818349232" className="onovo-lnk lnk--white" target="_blank">+91-9818349232 </a>
                                 <a href="tel:+919871921044 " className="onovo-lnk lnk--white" target="_blank">+91-9871921044 </a><br/><br/>
@@ -40,7 +40,6 @@ const DefaultFooter = () => {
                                 <a href="mailto:sunil@buyingconcepts.com" className="onovo-lnk lnk--white" target="_blank"> sunil@buyingconcepts.com</a>
                                 </p>
                             </div>
-
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
 
@@ -68,7 +67,6 @@ const DefaultFooter = () => {
                             <div className="copyright onovo-text-white text-center">
                                 <div dangerouslySetInnerHTML={{__html: appData.footer.copy}} />
                             </div>
-
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 align-right">
 

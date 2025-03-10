@@ -50,13 +50,22 @@ const About = (props) => {
 								<span> Effortlessly connecting you with the finest experiences </span>
 							</h2>
 							<div className="onovo-text">
-								<p>Our comprehensive services cover the entire process—from the development 
-									stage to the final product delivery at the customer’s warehouse—ensuring quality, 
-									compliance, and timely execution. Leveraging India's growing manufacturing 
-									strengths and consumer market, we are committed to delivering excellence and 
-									building long-lasting global partnerships. 
+								<p>
+								At Buying Concepts, we pride ourselves on our ability to provide tailored, innovative solutions through a strategic and proactive approach. 
+								Our commitment to regular communication, constant visits, and timely actions ensures smooth operations, even in the most complex and challenging 
+								situations. <br/>
+								We are driven by core values of integrity, transparency, customer satisfaction, and courage, which guide us in building trusted 
+								relationships with our clients and partners. Our unwavering focus on excellence makes us the preferred 
+								business partner and employer in the industry.
 								</p>
+								<ul>
+									<li>Reliable Partner</li>
+									<li>Strong Culture</li>
+									<li>Compliance Excellence</li>
+									<li>Design-Driven Approach</li>
+								</ul>
 							</div>
+							
 						</div>
 
 					</div>
@@ -77,7 +86,7 @@ const About = (props) => {
 							<div className="num onovo-text-white js-counter" data-end-value="23">
 								<CountUp end="25" duration={7} enableScrollSpy={true} scrollSpyOnce={true} />
 							</div>
-							<div className="num-after onovo-text-white">  </div>
+							<div className="num-after onovo-text-white"> + </div>
 							<div className="label"> Years Of Experience </div>
 						</div>
 					</div>

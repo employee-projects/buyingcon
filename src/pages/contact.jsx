@@ -36,11 +36,11 @@ const Contact = () => {
           },
           {
             "title": "Who are our customers?",
-            "text": "We work with global brands and businesses that need reliable sourcing partners. Some of our clients include BELK, KIDPIK, CHEROKEE, and many more."
+            "text": "Our customers range from boutique stores to high street retailers, department stores and discount retailers. "
           },
           {
             "title": "Why should you choose Buying Concepts?",
-            "text": "With 25+ years of experience, we provide top-quality products at competitive prices. We ensure quality, compliance, and smooth delivery, making sourcing hassle-free for businesses."
+            "text": ''
           }
     ]
   }
@@ -258,7 +258,7 @@ const Contact = () => {
                 </div>
 
                 {/* Faq items */}
-                <div className="onovo-faq-items">
+                {/* <div className="onovo-faq-items">
                 <Accordion defaultActiveKey="faq-acc-0">
                     {faqData.items.map((item, key) => (
                     <Accordion.Item key={`faq-item-${key}`} eventKey={`faq-acc-${key}`}>
@@ -278,8 +278,98 @@ const Contact = () => {
                     </Accordion.Item>
                     ))}
                 </Accordion>
-                </div>
+                </div> */}
                 
+                <div className="onovo-faq-items">
+                <Accordion defaultActiveKey="faq-acc-0">
+                    <Accordion.Item>
+                        <div className="onovo-faq-item ">
+                            <Accordion.Header>
+                            <h5 className="title onovo-collapse-btn">
+                                <span>What does Buying Concepts do?</span>
+                                <i className="arrow" />
+                            </h5>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                            <div className="onovo-text">
+                                <div>
+                                    Established in 1997 in New Delhi, Buying Concepts is a leading international trading and sourcing company with over 25 years of expertise. 
+                                    With offices in India and Australia, we specialize in sourcing and exporting high-quality products including apparel, soft goods, 
+                                    and hard goods to global markets at highly competitive prices.
+                                </div>
+                            </div>
+                            </Accordion.Body>
+                        </div>
+                    </Accordion.Item>
+
+                </Accordion>
+
+                <Accordion defaultActiveKey="faq-acc-0">
+                <Accordion.Item>
+                        <div className="onovo-faq-item onovo-collapse-item">
+                            <Accordion.Header>
+                            <h5 className="title onovo-collapse-btn">
+                                <span>Why should you choose buying concepts?</span>
+                                <i className="arrow" />
+                            </h5>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                            <div className="onovo-text">
+                                <div>
+                                    <ol>
+                                        <li>Reliable Partner
+                                            <ul>
+                                                <li>Trusted buying agency with decades of experience.</li>
+                                                <li>Expertise in managing a global, multi-category supply chain across apparel, hard goods, and soft goods.</li>
+                                                <li>Comprehensive end-to-end capabilities for seamless procurement.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Strong Culture
+                                            <ul>
+                                                <li>Entrepreneurial mindset ensures efficient performance and growth.</li>
+                                                <li>Focus on fostering inclusive progress for all stakeholders.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Compliance Excellence
+                                            <ul>
+                                                <li>Adherence to global compliance standards backed by industry experts.</li>
+                                                <li>Partnerships with renowned global audit firms ensure ethical and responsible practices.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Design-Driven Approach
+                                            <ul>
+                                                <li>Global design and manufacturing units stay ahead of the latest trends.</li>
+                                                <li>Reduced go-to-market time for enhanced competitiveness.</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            </Accordion.Body>
+                        </div>
+                    </Accordion.Item>
+                </Accordion>
+
+                <Accordion defaultActiveKey="faq-acc-0">
+                <Accordion.Item>
+                        <div className="onovo-faq-item onovo-collapse-item">
+                            <Accordion.Header>
+                            <h5 className="title onovo-collapse-btn">
+                                <span>Who are our customers?</span>
+                                <i className="arrow" />
+                            </h5>
+                            </Accordion.Header>
+                            <Accordion.Body>
+                            <div className="onovo-text">
+                                <div>
+                                    Our customers range from boutique stores to high street retailers, department stores and discount retailers.
+                                </div>
+                            </div>
+                            </Accordion.Body>
+                        </div>
+                    </Accordion.Item>
+                </Accordion>
+                </div>
             </div>
         </section>
       

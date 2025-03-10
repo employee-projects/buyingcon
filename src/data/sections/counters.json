@@ -3,7 +3,7 @@
         {
             "value": "25",
             "label": "Years Of Experience",
-            "after": ""
+            "after": "+"
         },
         {
             "value": "100",
