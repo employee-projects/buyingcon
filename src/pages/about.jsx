@@ -51,19 +51,21 @@ const About = (props) => {
 							</h2>
 							<div className="onovo-text">
 								<p>
-								At Buying Concepts, we pride ourselves on our ability to provide tailored, innovative solutions through a strategic and proactive approach. 
-								Our commitment to regular communication, constant visits, and timely actions ensures smooth operations, even in the most complex and challenging 
-								situations. <br/>
-								We are driven by core values of integrity, transparency, customer satisfaction, and courage, which guide us in building trusted 
-								relationships with our clients and partners. Our unwavering focus on excellence makes us the preferred 
-								business partner and employer in the industry.
+								Established in 1997 in New Delhi, Buying Concepts is a leading international trading and sourcing company with over 25 years of expertise. 
+								With offices in India and Australia, we specialize in sourcing and exporting high-quality products including apparel, soft goods, 
+								and hard goods to global markets at highly competitive prices. <br/>
+								Our comprehensive services cover the entire process—from the development 
+								stage to the final product delivery at the customer’s warehouse—ensuring quality, 
+								compliance, and timely execution. Leveraging Indias growing manufacturing 
+								strengths and consumer market, we are committed to delivering excellence and 
+								building long-lasting global partnerships
 								</p>
-								<ul>
+								{/* <ul>
 									<li>Reliable Partner</li>
 									<li>Strong Culture</li>
 									<li>Compliance Excellence</li>
 									<li>Design-Driven Approach</li>
-								</ul>
+								</ul> */}
 							</div>
 							
 						</div>
