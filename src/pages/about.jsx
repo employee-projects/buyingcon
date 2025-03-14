@@ -58,7 +58,7 @@ const About = (props) => {
 								stage to the final product delivery at the customer’s warehouse—ensuring quality, 
 								compliance, and timely execution. Leveraging Indias growing manufacturing 
 								strengths and consumer market, we are committed to delivering excellence and 
-								building long-lasting global partnerships
+								building long-lasting global partnerships.
 								</p>
 								{/* <ul>
 									<li>Reliable Partner</li>

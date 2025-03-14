@@ -3,20 +3,18 @@
         {
             "image": "/images/serv-icon1.png",
             "title": "Integrity",
-            "text": "Building lasting partnerships through trust, ethics, and uncompromised standards.",
-            "link": "/services/service-1"
+            "text": "Building lasting partnerships through trust, ethics, and uncompromised standards."
         },
         {
             "image": "/images/serv-icon2.png",
             "title": "Satisfaction",
-            "text": "Ensuring a smooth, hassle-free experience with sourcing solutions tailored to your needs.",
-            "link": "/services/service-2"
+            "text": "Ensuring a smooth, hassle-free experience with sourcing solutions tailored to your needs."
+
         },
         {
             "image": "/images/serv-icon3.png",
             "title": "Transparency",
-            "text": "We believe in complete transparency, delivering clear and honest solutions for every client.",
-            "link": "/services/service-3"
+            "text": "We believe in complete transparency, delivering clear and honest solutions for every client."
         }
     ]
 }

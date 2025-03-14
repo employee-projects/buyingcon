@@ -42,7 +42,7 @@ const AboutSection = () => {
                 {/* Description */}
                 <div className="row">
                   {Data.items.map((item, key) => (
-                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                  <div key={`about-item-${key}`} className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     {/* <h5 className="text-uppercase">{item.title}</h5> */}
                     <p dangerouslySetInnerHTML={{__html: item.text}} />
                     {item.button != undefined &&
@@ -51,6 +51,12 @@ const AboutSection = () => {
                       <span>{item.button.label}</span>
                     </Link>
                     }
+                    	<ul className="fourlist">
+                        <li>Reliable Partner</li>
+                        <li>Strong Culture</li>
+                        <li>Compliance Excellence</li>
+                        <li>Design-Driven Approach</li>
+                      </ul>
                   </div>
                   ))}
                 </div>
